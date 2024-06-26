@@ -1,0 +1,30 @@
+GET /{ "totalTerminalCount" 6718,  "mdmConnected" : 0 } HTTP/1.1
+GET /{ "totalTerminalCount" 6718,  "mdmConnected" : 0 } HTTP/1.1
+----------- 2024-06-26 16:46:29 --------------------------------------
+GET /{ "totalTerminalCount" 6718,  "mdmConnected" : 0 } HTTP/1.1
+----------- 2024-06-26 16:46:32 --------------------------------------
+GET /{ "totalTerminalCount" 6718,  "mdmConnected" : 0 } HTTP/1.1
+
+--- 2024-06-26 17:07:24 --------------------------------------
+GET /{ "totalTerminalCount" 6718,  "mdmConnected" : 0 } HTTP/1.1
+{"approved":"OK","crc":"8377D007","maxTerminals":20}
+
+--- 2024-06-26 17:07:25 --------------------------------------
+GET /{ "totalTerminalCount" 6718,  "mdmConnected" : 0 } HTTP/1.1
+{"approved":"OK","crc":"8377D007","maxTerminals":20}
+
+--- 2024-06-26 17:07:26 --------------------------------------
+GET /{ "totalTerminalCount" 6718,  "mdmConnected" : 0 } HTTP/1.1
+{"approved":"OK","crc":"8377D007","maxTerminals":20}
+
+--- 2024-06-26 17:07:28 --------------------------------------
+GET /{ "totalTerminalCount" 6718,  "mdmConnected" : 0 } HTTP/1.1
+{"approved":"OK","crc":"8377D007","maxTerminals":20}
+
+--- 2024-06-26 18:18:57 --------------------------------------
+REQ: { "totalTerminalCount" 6718,  "mdmConnected" : 0 }
+RSP: {"approved":"OK","crc":"8377D007","maxTerminals":20}
+
+--- 2024-06-26 18:18:59 --------------------------------------
+REQ: { "totalTerminalCount" 6718,  "mdmConnected" : 0 }
+RSP: {"approved":"OK","crc":"8377D007","maxTerminals":20}
