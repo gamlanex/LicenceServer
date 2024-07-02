@@ -53,6 +53,7 @@ public class HttpReqestHandler extends Thread {
 	}
 	
 	public void handleRequest(Socket socket) {
+		 
 		
 		this.socket = socket;
 		
