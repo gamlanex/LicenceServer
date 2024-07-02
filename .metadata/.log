@@ -1,0 +1,26 @@
+!SESSION 2024-06-26 20:21:58.536 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --launcher.GTK_backend x11 -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 --launcher.GTK_backend x11 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-26 20:22:01.181
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-26 20:22:19.796
+!MESSAGE Logback config file: /home/slawek/workspaces_ECLIPSE/Server/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
+!SESSION 2024-07-02 10:53:28.740 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --launcher.GTK_backend x11 -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 --launcher.GTK_backend x11 -product org.eclipse.epp.package.java.product -data /home/slawek/workspaces_ECLIPSE/Server
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-02 10:53:30.943
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-02 10:53:31.853
+!MESSAGE Logback config file: /home/slawek/workspaces_ECLIPSE/Server/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml

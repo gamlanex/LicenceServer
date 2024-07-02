@@ -1,0 +1,65 @@
+
+--- 2024-07-02 12:03:24 --------------------------------------
+REQ: null
+
+--- 2024-07-02 12:03:24 --------------------------------------
+REQ: null
+
+--- 2024-07-02 12:03:24 --------------------------------------
+REQ: null
+
+--- 2024-07-02 12:07:15 --------------------------------------
+REQ: {"totalTerminalCount":0,"mdmConnected":0,"notMdmConnected":0,"mdmConnectedOk":0,"mdmConnectedNotOk":0,"commStatusNotOk":0,"betSlipReaderStatusNotOk":0,"printerStatusNotOk":0,"backOfficeStatusNotOk":0,"applicationStatusNotOk":0,"userCount":1,"serverIp":"192.168.0.94"}
+RSP: {"approved":"OK","crc":"E7E6D76C","maxTerminals":0}
+
+--- 2024-07-02 12:07:28 --------------------------------------
+REQ: {"totalTerminalCount":0,"mdmConnected":0,"notMdmConnected":0,"mdmConnectedOk":0,"mdmConnectedNotOk":0,"commStatusNotOk":0,"betSlipReaderStatusNotOk":0,"printerStatusNotOk":0,"backOfficeStatusNotOk":0,"applicationStatusNotOk":0,"userCount":1,"serverIp":"192.168.0.94"}
+RSP: {"approved":"OK","crc":"E7E6D76C","maxTerminals":0}
+
+--- 2024-07-02 12:07:28 --------------------------------------
+REQ: {"totalTerminalCount":0,"mdmConnected":0,"notMdmConnected":0,"mdmConnectedOk":0,"mdmConnectedNotOk":0,"commStatusNotOk":0,"betSlipReaderStatusNotOk":0,"printerStatusNotOk":0,"backOfficeStatusNotOk":0,"applicationStatusNotOk":0,"userCount":1,"serverIp":"192.168.0.94"}
+RSP: {"approved":"OK","crc":"E7E6D76C","maxTerminals":0}
+
+--- 2024-07-02 12:07:28 --------------------------------------
+REQ: {"totalTerminalCount":0,"mdmConnected":0,"notMdmConnected":0,"mdmConnectedOk":0,"mdmConnectedNotOk":0,"commStatusNotOk":0,"betSlipReaderStatusNotOk":0,"printerStatusNotOk":0,"backOfficeStatusNotOk":0,"applicationStatusNotOk":0,"userCount":1,"serverIp":"192.168.0.94"}
+RSP: {"approved":"OK","crc":"E7E6D76C","maxTerminals":0}
+
+--- 2024-07-02 12:07:28 --------------------------------------
+REQ: {"totalTerminalCount":0,"mdmConnected":0,"notMdmConnected":0,"mdmConnectedOk":0,"mdmConnectedNotOk":0,"commStatusNotOk":0,"betSlipReaderStatusNotOk":0,"printerStatusNotOk":0,"backOfficeStatusNotOk":0,"applicationStatusNotOk":0,"userCount":1,"serverIp":"192.168.0.94"}
+RSP: {"approved":"OK","crc":"E7E6D76C","maxTerminals":0}
+
+--- 2024-07-02 12:07:29 --------------------------------------
+REQ: {"totalTerminalCount":0,"mdmConnected":0,"notMdmConnected":0,"mdmConnectedOk":0,"mdmConnectedNotOk":0,"commStatusNotOk":0,"betSlipReaderStatusNotOk":0,"printerStatusNotOk":0,"backOfficeStatusNotOk":0,"applicationStatusNotOk":0,"userCount":1,"serverIp":"192.168.0.94"}
+RSP: {"approved":"OK","crc":"E7E6D76C","maxTerminals":0}
+
+--- 2024-07-02 12:07:29 --------------------------------------
+REQ: {"totalTerminalCount":0,"mdmConnected":0,"notMdmConnected":0,"mdmConnectedOk":0,"mdmConnectedNotOk":0,"commStatusNotOk":0,"betSlipReaderStatusNotOk":0,"printerStatusNotOk":0,"backOfficeStatusNotOk":0,"applicationStatusNotOk":0,"userCount":1,"serverIp":"192.168.0.94"}
+RSP: {"approved":"OK","crc":"E7E6D76C","maxTerminals":0}
+
+--- 2024-07-02 12:07:29 --------------------------------------
+REQ: {"totalTerminalCount":0,"mdmConnected":0,"notMdmConnected":0,"mdmConnectedOk":0,"mdmConnectedNotOk":0,"commStatusNotOk":0,"betSlipReaderStatusNotOk":0,"printerStatusNotOk":0,"backOfficeStatusNotOk":0,"applicationStatusNotOk":0,"userCount":1,"serverIp":"192.168.0.94"}
+RSP: {"approved":"OK","crc":"E7E6D76C","maxTerminals":0}
+
+--- 2024-07-02 12:07:29 --------------------------------------
+REQ: {"totalTerminalCount":0,"mdmConnected":0,"notMdmConnected":0,"mdmConnectedOk":0,"mdmConnectedNotOk":0,"commStatusNotOk":0,"betSlipReaderStatusNotOk":0,"printerStatusNotOk":0,"backOfficeStatusNotOk":0,"applicationStatusNotOk":0,"userCount":1,"serverIp":"192.168.0.94"}
+RSP: {"approved":"OK","crc":"E7E6D76C","maxTerminals":0}
+
+--- 2024-07-02 12:07:29 --------------------------------------
+REQ: {"totalTerminalCount":0,"mdmConnected":0,"notMdmConnected":0,"mdmConnectedOk":0,"mdmConnectedNotOk":0,"commStatusNotOk":0,"betSlipReaderStatusNotOk":0,"printerStatusNotOk":0,"backOfficeStatusNotOk":0,"applicationStatusNotOk":0,"userCount":1,"serverIp":"192.168.0.94"}
+RSP: {"approved":"OK","crc":"E7E6D76C","maxTerminals":0}
+
+--- 2024-07-02 12:07:30 --------------------------------------
+REQ: {"totalTerminalCount":0,"mdmConnected":0,"notMdmConnected":0,"mdmConnectedOk":0,"mdmConnectedNotOk":0,"commStatusNotOk":0,"betSlipReaderStatusNotOk":0,"printerStatusNotOk":0,"backOfficeStatusNotOk":0,"applicationStatusNotOk":0,"userCount":1,"serverIp":"192.168.0.94"}
+RSP: {"approved":"OK","crc":"E7E6D76C","maxTerminals":0}
+
+--- 2024-07-02 12:33:16 --------------------------------------
+REQ: {"totalTerminalCount":0,"mdmConnected":0,"notMdmConnected":0,"mdmConnectedOk":0,"mdmConnectedNotOk":0,"commStatusNotOk":0,"betSlipReaderStatusNotOk":0,"printerStatusNotOk":0,"backOfficeStatusNotOk":0,"applicationStatusNotOk":0,"userCount":1,"serverIp":"192.168.0.94"}
+RSP: {"approved":"OK","crc":"E7E6D76C","maxTerminals":0}
+
+--- 2024-07-02 16:14:14 --------------------------------------
+REQ: {"totalTerminalCount":0,"mdmConnected":0,"notMdmConnected":0,"mdmConnectedOk":0,"mdmConnectedNotOk":0,"commStatusNotOk":0,"betSlipReaderStatusNotOk":0,"printerStatusNotOk":0,"backOfficeStatusNotOk":0,"applicationStatusNotOk":0,"userCount":1,"serverIp":"192.168.0.94"}
+RSP: {"approved":"OK","crc":"E7E6D76C","maxTerminals":0}
+
+--- 2024-07-02 16:14:37 --------------------------------------
+REQ: {"totalTerminalCount":0,"mdmConnected":0,"notMdmConnected":0,"mdmConnectedOk":0,"mdmConnectedNotOk":0,"commStatusNotOk":0,"betSlipReaderStatusNotOk":0,"printerStatusNotOk":0,"backOfficeStatusNotOk":0,"applicationStatusNotOk":0,"userCount":1,"serverIp":"192.168.0.94"}
+RSP: {"approved":"OK","crc":"E7E6D76C","maxTerminals":0}
