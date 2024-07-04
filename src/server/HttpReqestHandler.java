@@ -7,10 +7,12 @@ import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.net.Socket;
+import java.net.SocketTimeoutException;
 import java.net.URLDecoder;
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 import java.util.Date;
+import java.util.LinkedList;
 
 import mainApl.Apl;
 import utils.ConcurrentRequestsCounter;
@@ -51,6 +53,7 @@ public class HttpReqestHandler extends Thread {
 	}
 	
 	public void handleRequest(Socket socket) {
+		 
 		
 		this.socket = socket;
 		
@@ -73,21 +76,52 @@ public class HttpReqestHandler extends Thread {
 			out 	= new PrintWriterWrapper(socket.getOutputStream());
 			dataOut = new BufferedOutputStream(socket.getOutputStream());
 			
-			String[] input = new String[10]; 					
-			String l = in.readLine();
+//			String[] input = new String[10]; 					
+//			String l = in.readLine();
 			
-			input[0] = URLDecoder.decode(l);
-									
-			if (input[0] == null || input[0].length() < 2) {
-				System.err.println("Error processing request, " + input[0] == null ? "no input!" : "input length= " + input[0].length());
+			socket.setSoTimeout(10);
+
+			LinkedList<String> inList = new LinkedList<>();					
+			String l = null;
+			
+			do {
+				l = null;
+				try {
+					l = in.readLine();
+					inList.add(URLDecoder.decode(l));
+				} catch (SocketTimeoutException e) {
+					
+				}
+				
+			} while(l != null);
+			
+			
+			HttpRequest req = new HttpRequest();
+			
+			req.lines = new String[inList.size()];
+			int i = 0;
+			
+			System.out.println("--- Got request ---");
+			
+			for(String s : inList) {
+				req.lines[i++] = s;
+				System.out.println(s);
+			}			
+			
+								
+			if (req.lines[0] == null || req.lines[0].length() < 2) {
+				System.err.println("Error processing request, " + req.lines[0] == null ? "no input!" : "input length= " + req.lines[0].length());
 				return;
 			}
 						
 			
 			// get pure response
-			System.out.println("\n Got request from: " + socket.getRemoteSocketAddress() + " > data: " + input[0]);
+			System.out.println("\n Got request from: " + socket.getRemoteSocketAddress() + " > data: " + req.lines[0]);
 
-			HttpResp resp = responseBuilder.getResponse(input);
+			req.remoteSocketAddress = socket.getInetAddress();
+			req.remotePort =  socket.getPort();
+			
+			HttpResp resp = responseBuilder.getResponse(req.lines);
 			
 			// "No data" response (checkbox selected or no response found - return error 204)
 			if (resp == null || (resp.resp == null && resp.data == null)) {

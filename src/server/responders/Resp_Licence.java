@@ -38,23 +38,14 @@ public class Resp_Licence extends Responder {
 			String s = JSon.getJsonOnly(request[0]);
 			Apl.historyFile.writeFile("REQ: " + s);
 			
-			JSONObject json = new JSONObject();
-
-			// --- CRC ---
-			byte[] msg = s.getBytes();
-			byte[] secret = new byte[] { 0x37, 0x12, 0x7F, 0x54, 0x01 };
-			
-
-			
-			byte[] combined = ByteArray.sum(msg, secret);
-
+			// --- CRC ---			
+			byte[] combined = ByteArray.sum(s.getBytes(), Apl.secret);
 			CRC32 crc = new CRC32();
 			crc.update(combined);
 			long checksum = crc.getValue();
-			// -------------
-
-			// Create JSON object
-			json = new JSONObject();
+			
+			// Response
+			JSONObject json = new JSONObject();
 			json.put("approved", resp);
 			json.put("maxTerminals", Apl.maxNumberOfTerminals);
 			json.put("crc", String.format("%08X", checksum));
